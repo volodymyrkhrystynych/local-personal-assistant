@@ -1,22 +1,6 @@
-# First thoughts and main goal
+# TODO List
 
-I want to be able to use speach to text and text to speach to interact with my local personal assistant.
-
-This personal assistant will mainly be a knowledge repository.
-
-For this it needs to have a local chatbot it can query as well as a vector database to store the knowledge. The raw knowledge will be text, photos, voice and video.
-
-As it goes on I think it will be a good idea to include a TODO list and a calendar.
-
-All in all this may transition into being a wholistic AI journal assistant
-
-So I guess that the first thing that needs to be done is to set up the local stt and tts.
-
----
-
-## TODO List
-
-### First Steps: Core Functionality
+## First Steps: Core Functionality
 
 1. **Speech-to-Text (STT) Integration**
    - Research and select a local/offline STT engine (e.g., Vosk, Whisper, DeepSpeech).
@@ -39,7 +23,7 @@ So I guess that the first thing that needs to be done is to set up the local stt
 
 ---
 
-### Next Steps: Expanding Capabilities
+## Next Steps: Expanding Capabilities
 
 5. **Knowledge Ingestion**
    - Implement ingestion pipelines for text, photos, voice, and video.
@@ -64,7 +48,7 @@ So I guess that the first thing that needs to be done is to set up the local stt
 
 ---
 
-### Long-Term / Future Features
+## Long-Term / Future Features
 
 - Multi-modal knowledge linking (e.g., relate a photo to a text note).
 - Advanced search and summarization across all knowledge types.
