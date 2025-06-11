@@ -8,7 +8,8 @@ internet connection.
 
 `server.py` provides a minimal FastAPI service that exposes a `/transcribe`
 endpoint. It loads OpenAI's Whisper model and returns the transcription of an
-uploaded audio file.
+uploaded audio file. The server attempts to load the largest model that fits on
+your GPU and will default to GPU inference whenever available.
 
 ### Usage
 
